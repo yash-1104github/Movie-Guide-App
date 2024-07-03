@@ -31,7 +31,6 @@ const showMovieData = (data) => {
 
     const { Title, Actors, imdbRating, Genre, Released, Runtime, Plot, Poster, Language, BoxOffice, Country ,Type ,Awards} = data;
 
-    console.log(data);
     const movieElement = document.createElement('div');
     movieElement.classList.add('movie-info');
     movieElement.innerHTML = `<h2>${Title}</h2> 
